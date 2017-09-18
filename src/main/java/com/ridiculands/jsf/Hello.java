@@ -7,25 +7,26 @@
  */
 package com.ridiculands.jsf;
 
+import java.io.Serializable;
 
-import javax.enterprise.context.RequestScoped;
+import javax.enterprise.context.SessionScoped;
 import javax.inject.Named;
 
-@Named("hellodnlm")
-@RequestScoped
-public class Hello {
+@Named("helloDnlm")
+@SessionScoped
+public class Hello implements Serializable {
 
-    private String name;
+	private static final long serialVersionUID = 5443351151396868723L;
+	private String name;
 
-    public Hello() {
-    }
+	public Hello() {
+	}
 
-    public String getName() {
-        return name + ".  I DNLM.";
-    }
+	public String getName() {
+		return name + ".  I DNLM.";
+	}
 
-    public void setName(String user_name) {
-        this.name = user_name;
-    }
+	public void setName(String user_name) {
+		this.name = user_name;
+	}
 }
-
