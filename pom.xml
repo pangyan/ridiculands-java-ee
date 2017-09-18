@@ -18,7 +18,8 @@
 	</dependencies>
 
     <groupId>org.glassfish.javaeetutorial</groupId>
-    <artifactId>hello1</artifactId>
+    <!-- <artifactId>hello1</artifactId> -->
+	<artifactId>javaee-lab</artifactId>
     <version>7.0.6</version>
     <packaging>war</packaging>
 
