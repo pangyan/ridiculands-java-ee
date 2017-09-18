@@ -12,7 +12,7 @@ import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-@Named("userNumberBean")
+@Named("userNumberBeanAJAX")
 @RequestScoped
 public class UserNumberBean implements Serializable {
 

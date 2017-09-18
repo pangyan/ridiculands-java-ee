@@ -12,7 +12,7 @@ import java.util.Random;
 import javax.enterprise.context.SessionScoped;
 import javax.inject.Named;
 
-@Named("userNumberBeanRidiculands")
+@Named("userNumberBean")
 @SessionScoped
 public class UserNumberBean implements Serializable {
 
